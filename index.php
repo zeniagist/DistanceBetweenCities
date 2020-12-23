@@ -7,11 +7,10 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-
-    <title>Distance Between</title>
+    <link href="styling.css" rel="stylesheet">
+    <title>Distance Between Cities</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
