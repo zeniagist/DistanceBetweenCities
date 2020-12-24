@@ -22,8 +22,15 @@ body{
 }
 
 /*Map*/
-#googleMap{
+#googleMap, #output{
     width: 100%;
-    height: 200px;
+    height: 400px;
     margin: 10px auto;
+}
+
+/*Output Box*/
+#output{
+    text-align: center;
+    font-size: 2em;
+    margin: 20px auto;
 }

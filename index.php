@@ -23,7 +23,7 @@
     <div class="jumbotron">
         <div class="container-fluid">
             <h1>Distance Between Cities</h1>
-            <p>Our app will help you find the traveling distance between two cities!</p>
+            <p>Our app will help you find the driving distance between two cities!</p>
             
             
             <form class="form-horizontal">
@@ -37,7 +37,7 @@
                     </div>
                 </div>
                 
-                <!--To City-->
+                <!--Destination City-->
                 <div class="form-group">
                     <div class="col-xs-10">
                         <label for="to" class="col-xs-2 control-label">To:</label>
@@ -67,8 +67,14 @@
             </div>
         </div>
     </div>
+    
+    <!--Google Map API-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFLMFaU5ZWKX-DheNPBrL1yE_ZVQmBvjo&libraries=places"></script>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    
+    <!--JS File-->
+    <script src="javascript.js"></script>
   </body>
 </html>
