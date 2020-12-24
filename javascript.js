@@ -54,12 +54,16 @@
                     }
                 });
         }
-           
-                // Get distance and time
-                // display route using DirectionsRenderer object
-                
-            // if status not OK
-                
         
+        // create autocomplete object
+        var options = {
+            types:['(cities)']
+        };
         
-        // create autocomplete objects for all inputs
+        // create autocomplete objects for From
+        var input1 = document.getElementById("from");
+        var autocomplete1 = new google.maps.places.Autocomplete(input1,options);
+        
+        // create autocomplete objects for To
+        var input2 = document.getElementById("to");
+        var autocomplete2 = new google.maps.places.Autocomplete(input2,options);
