@@ -24,6 +24,7 @@
                     origin: document.getElementById("from").value,
                     destination: document.getElementById("to").value,
                     travelMode: google.maps.TravelMode.DRIVING, //WALKING, BYCYCLING, TRANSIT
+                    unitSystem: google.maps.UnitSystem.IMPERIAL
                 };
                 
                 directionsService.route(request, function(result, status){
