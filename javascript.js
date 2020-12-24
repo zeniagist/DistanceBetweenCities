@@ -36,16 +36,14 @@
                                 "From: " + document.getElementById("from").value + ".<br />" +
                                 "To: " + document.getElementById("to").value + ".<br />" +
                                 "Driving Distance: " + result.routes[0].legs[0].distance.text + ".<br />" +
-                                "Duration: " + result.routes[0].legs[0].duration.text + "." +
+                                "Drive Duration: " + result.routes[0].legs[0].duration.text + "." +
                             "</div>");
-                        // window.alert("The travelling distance is "+ result.routes[0].legs[0].distance.text+ 
-                        // ".<br />The travelling time is: "+ result.routes[0].legs[0].duration.text+ ".");
                         
                         //display route
                         directionsDisplay.setDirections(result);
                     }else{
                         // delete route from map
-                        directionsDisplay.setDirections({routes:{}});
+                        directionsDisplay.setDirections({routes:[]});
                         
                         // center map
                         map.setCenter(myLatLng);
